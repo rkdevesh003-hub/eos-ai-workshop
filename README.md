@@ -1,6 +1,6 @@
 # 👋 Hi, I'm RKDEVESH
 
-I'm a Grade 11 student at EOS Sunshine School, Chennai.
+I'm a Grade 9 student at Sunshine SSM School, Chennai.
 This is my portfolio for the EOS × Spark AI Workshop 2026.
 
 ## Why I'm learning AI
