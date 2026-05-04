@@ -7,3 +7,12 @@ THE#WEEK-01 — AI foundations + Python basics\n
 1.AI (big circle)-Any machine doing "smart" tasks\n
  2.ML (middle)-AI that learns from data\n
   3.DL (inner)-ML with neural networks\n
+ ### A Minor Chord
+```text
+e|---0---|
+B|---1---|
+G|---2---|
+D|---2---|
+A|---0---|
+E|---X---|
+```
