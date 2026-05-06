@@ -1,4 +1,4 @@
-#WEEK-01 — AI foundations + Python basics
+ #WEEK-01 — AI foundations + Python basics
 ---
 
 ##SESSION 1 · PART A · WEEK 1- WORLD OF AI
