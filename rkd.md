@@ -29,6 +29,6 @@ AI is the science of getting computers to recognise patterns the way you do — 
   # PYTHON FUNDAMENTALS
   ---
 
-  **After the intro of AI which made me to understand the core of the workshop,my tutors moved on to PYTHON**
+  *After the intro of AI which made me to understand the core of the workshop,my tutors moved on to PYTHON.*
 
   
