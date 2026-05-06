@@ -25,3 +25,10 @@ AI is the science of getting computers to recognise patterns the way you do — 
 
  
   3.DL (inner)-ML with neural networks
+
+  # PYTHON FUNDAMENTALS
+  ---
+
+  **After the intro of AI which made me to understand the core of the workshop,my tutors moved on to PYTHON**
+
+  
