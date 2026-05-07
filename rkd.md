@@ -40,11 +40,11 @@ AI is the science of getting computers to recognise patterns the way you do — 
 
   The code is as follows:
 
-  '''name = "Aryan"
+  ``` name = "Aryan"
 age = 16
 print(name)           # Aryan
 print(age)            # 16
-print("Hello", name)  # Hello Aryan'''
+print("Hello", name)  # Hello Aryan ```
 
 
 💡 The = sign doesn't mean "equals". It means "store the right side into the left side".
@@ -69,10 +69,10 @@ Text (quoted)
 -bool
 True or False
 
-'''print(type(16))        # <class 'int'>
+``` print(type(16))        # <class 'int'>
 print(type(9.5))       # <class 'float'>
 print(type("Aryan"))   # <class 'str'>
-print(type(True))      # <class 'bool'>'''
+print(type(True))      # <class 'bool'> ```
 
   3.✨ f-Strings
 
