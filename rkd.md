@@ -69,10 +69,11 @@ Text (quoted)
 -bool
 True or False
 
-``` print(type(16))        # <class 'int'>
+```print(type(16))        # <class 'int'>
 print(type(9.5))       # <class 'float'>
 print(type("Aryan"))   # <class 'str'>
-print(type(True))      # <class 'bool'> ```
+print(type(True))      # <class 'bool'>
+```
 
   3.✨ f-Strings
 
