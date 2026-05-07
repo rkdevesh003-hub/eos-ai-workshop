@@ -39,13 +39,13 @@ AI is the science of getting computers to recognise patterns the way you do — 
   *Variables are like lockers for any values.In python this is the basis one.*
 
   The code is as follows:
-
-  ``` name = "Aryan"
+  
+```name = "Aryan"
 age = 16
 print(name)           # Aryan
 print(age)            # 16
-print("Hello", name)  # Hello Aryan ```
-
+print("Hello", name)  # Hello Aryan 
+```
 
 💡 The = sign doesn't mean "equals". It means "store the right side into the left side".
 
