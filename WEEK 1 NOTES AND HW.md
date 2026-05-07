@@ -75,11 +75,11 @@ print(type("Aryan"))   # <class 'str'>
 print(type(True))      # <class 'bool'>
 ```
 
-  3.✨ f-Strings
+3.✨ f-Strings
 
-  4. lists and dicts — The two workhorses.
+4.lists and dicts — The two workhorses.
 
-  5. Control Flow — if / elif / else
+ 5. Control Flow — if / elif / else
 
  6.🔁 for Loops
 
