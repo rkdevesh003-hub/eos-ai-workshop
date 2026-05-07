@@ -31,4 +31,61 @@ AI is the science of getting computers to recognise patterns the way you do — 
 
   *After the intro of AI which made me to understand the core of the workshop,my tutors moved on to PYTHON 🐍.*
 
+  My tutors suggested me to use google colab for coding, where my coding journey started.
+  ---
+  ## TOPICS WE LEARNT
+  1.Variables
+
+  *Variables are like lockers for any values.In python this is the basis one.*
+
+  The code is as follows:
+
+  '''name = "Aryan"
+age = 16
+print(name)           # Aryan
+print(age)            # 16
+print("Hello", name)  # Hello Aryan'''
+
+
+💡 The = sign doesn't mean "equals". It means "store the right side into the left side".
+
+
+
+  2.🏷️ The 4 Basic Types
+  The 4 main data types we use to code are:
+
+  -int
+Whole numbers
+
+
+-float
+Decimal numbers
+
+
+-str
+Text (quoted)
+
+
+-bool
+True or False
+
+'''print(type(16))        # <class 'int'>
+print(type(9.5))       # <class 'float'>
+print(type("Aryan"))   # <class 'str'>
+print(type(True))      # <class 'bool'>'''
+
+  3.✨ f-Strings
+
+  4. lists and dicts — The two workhorses.
+
+  5. Control Flow — if / elif / else
+
+ 6.🔁 for Loops
+
+ 7. Functions
+
+ 8. ✨ f-Strings Deep Dive
+
+ 9. 🎯 List Comprehensions — One-Liner Loops
+
   
