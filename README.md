@@ -17,3 +17,5 @@ and I want to be the one building it — not watching.
 Python · NumPy · Pandas · scikit-learn · TensorFlow · OpenAI API
 
 **I think this workshop will be a good start for me in AI**
+
+## WEEK 2 HW LINK - https://colab.research.google.com/drive/1ItAVwpavNnVHp1imZP7AVQV_wT-5NwHr#scrollTo=Pn60VWgI7oxz
