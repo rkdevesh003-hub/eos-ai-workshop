@@ -15,3 +15,5 @@ and I want to be the one building it — not watching.
 
 ## Tools I'm learning
 Python · NumPy · Pandas · scikit-learn · TensorFlow · OpenAI API
+
+**I think this workshop will be a good start for me in AI**
