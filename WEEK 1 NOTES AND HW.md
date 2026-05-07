@@ -79,7 +79,7 @@ print(type(True))      # <class 'bool'>
 
 4.lists and dicts — The two workhorses.
 
- 5. Control Flow — if / elif / else
+5.Control Flow — if / elif / else
 
  6.🔁 for Loops
 
