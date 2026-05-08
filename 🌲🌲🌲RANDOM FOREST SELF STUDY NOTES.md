@@ -1,4 +1,4 @@
-# 🌲 Random Forest Detailed Notes with Code Examples
+# 🌲 Random Forest self study notes
 
 ---
 
