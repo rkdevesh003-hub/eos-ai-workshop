@@ -77,8 +77,14 @@ print(type(True))      # <class 'bool'>
 
 3.✨ f-Strings
 
-4.lists and dicts — The two workhorses.
+*f-strings are the cleanest way to print,the sample code shows how f-strings are more efficient than using the old method.*
 
+
+```name = "Aryan"
+age = 16
+print(f"My name is {name} and I am {age}")
+4.lists and dicts — The two workhorses.
+```
 5.Control Flow — if / elif / else
 
  6.🔁 for Loops
