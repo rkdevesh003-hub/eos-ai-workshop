@@ -371,4 +371,4 @@ This week helped me understand:
 This session increased my interest in AI and coding.
 
 
-[View Week 1 Homework](PIXEL ART USING NUMPY.ipynb)
+[View Week 1 Homework](https://github.com/rkdevesh003-hub/eos-ai-workshop/blob/main/PIXEL%20ART%20USING%20NUMPY.ipynb)
