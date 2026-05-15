@@ -1,6 +1,6 @@
 # Task A6
 
-## Reflection 🧠
+## Reflection🧠
 
 Before doing this assignment, my tutors taught us about CNN in the previous session, and at that time it felt more like a theoretical topic. When I asked them about the coding part, they told me that CNN code can be a little complex for beginners and they gave me a sample code to learn from. I am really thankful to my tutors because using that sample code helped me understand how CNN actually works in real life. In this project, **“Fashion Item Classifier using CNN”**, I was able to see how AI can identify different clothing items using images. Instead of only studying theory, I was able to run the program, test it, and see the results live on my screen. That made this assignment a really amazing learning experience for me 😊.
 
