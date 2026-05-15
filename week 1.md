@@ -369,3 +369,6 @@ This week helped me understand:
 - Mathematical operations using NumPy
 
 This session increased my interest in AI and coding.
+
+
+[View Week 1 Homework](./path-to-your-file/homework.ipynb)
