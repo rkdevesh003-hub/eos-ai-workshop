@@ -18,6 +18,8 @@ Python · NumPy · Pandas · scikit-learn · TensorFlow · OpenAI API
 
 **I think this workshop will be a good start for me in AI**
 
+## [WEEK 1 HW LINK](https://github.com/rkdevesh003-hub/eos-ai-workshop/blob/main/PIXEL%20ART%20USING%20NUMPY.ipynb)
+ 
 ## [WEEK 2 HW LINK](https://colab.research.google.com/drive/1ItAVwpavNnVHp1imZP7AVQV_wT-5NwHr#scrollTo=Pn60VWgI7oxz)
 
 ## [RANDOM FOREST SELF STUDY NOTES](https://github.com/rkdevesh003-hub/eos-ai-workshop/blob/main/%F0%9F%8C%B2%F0%9F%8C%B2%F0%9F%8C%B2RANDOM%20FOREST%20SELF%20STUDY%20NOTES.md)
