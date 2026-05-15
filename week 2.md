@@ -1,7 +1,10 @@
 # 📊 WEEK-02 — PANDAS, VISUALIZATION & MACHINE LEARNING
 ---
 
-[View Week 2 Homework](./path-to-your-file/homework.ipynb)
+[View Week 2 Homework](https://github.com/rkdevesh003-hub/eos-ai-workshop/blob/main/%F0%9F%91%89WEEK%202%20HW.ipynb)
+
+[View Random forest self study](https://github.com/rkdevesh003-hub/eos-ai-workshop/blob/main/%F0%9F%8C%B2%F0%9F%8C%B2%F0%9F%8C%B2RANDOM%20FOREST%20SELF%20STUDY%20NOTES.md)
+
 ---
 
 # SESSION 3 · PART A · PANDAS
