@@ -1,6 +1,9 @@
 # 📊 WEEK-02 — PANDAS, VISUALIZATION & MACHINE LEARNING
 ---
 
+[View Week 2 Homework](./path-to-your-file/homework.ipynb)
+---
+
 # SESSION 3 · PART A · PANDAS
 ---
 
