@@ -1,6 +1,10 @@
 # 🤖 WEEK-01 — AI Foundations + Python Basics
 ---
 
+[View Week 1 Homework](https://github.com/rkdevesh003-hub/eos-ai-workshop/blob/main/PIXEL%20ART%20USING%20NUMPY.ipynb)
+
+---
+
 # SESSION 1 · PART A · WORLD OF AI
 ---
 
@@ -371,4 +375,3 @@ This week helped me understand:
 This session increased my interest in AI and coding.
 
 
-[View Week 1 Homework](https://github.com/rkdevesh003-hub/eos-ai-workshop/blob/main/PIXEL%20ART%20USING%20NUMPY.ipynb)
