@@ -371,4 +371,4 @@ This week helped me understand:
 This session increased my interest in AI and coding.
 
 
-[View Week 1 Homework](./path-to-your-file/homework.ipynb)
+[View Week 1 Homework](PIXEL ART USING NUMPY.ipynb)
