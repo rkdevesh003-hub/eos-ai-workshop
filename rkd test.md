@@ -3,7 +3,7 @@
 In this session, I explored **[topic name]** and understood how it is used in real-world problem solving.
 ---
 ## ⚙️ Key Concepts
-- **Concept 1** → One-line meaning  
+- **Concept 1** → One-line meaning R 
 - **Concept 2** → One-line meaning  
 - **Concept 3** → One-line meaning  
 ---
