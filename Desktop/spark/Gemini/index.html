@@ -131,52 +131,6 @@
             text-shadow: 0 0 10px #39ff14;
         }
 
-        .badge-display {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            margin-top: 5px;
-            padding: 5px;
-            border-top: 1px solid rgba(0, 229, 255, 0.3);
-        }
-
-        .badge-name {
-            font-size: 0.8em;
-            color: #00e5ff;
-            font-weight: bold;
-            letter-spacing: 1px;
-            text-shadow: 0 0 5px #00e5ff;
-        }
-
-        .badge-rank {
-            color: #39ff14;
-            text-shadow: 0 0 10px #39ff14;
-        }
-
-        .congrats-popup {
-            position: absolute;
-            top: 40%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background: rgba(0, 0, 0, 0.9);
-            border: 3px solid #39ff14;
-            padding: 20px 40px;
-            text-align: center;
-            z-index: 50;
-            pointer-events: none;
-            animation: badgeUnlock 3s forwards;
-            box-shadow: 0 0 30px #39ff14;
-            display: none;
-        }
-
-        @keyframes badgeUnlock {
-            0% { transform: translate(-50%, -60%); opacity: 0; scale: 0.8; }
-            10% { transform: translate(-50%, -50%); opacity: 1; scale: 1.1; }
-            20% { scale: 1; }
-            80% { opacity: 1; transform: translate(-50%, -50%); }
-            100% { opacity: 0; transform: translate(-50%, -70%); }
-        }
-
         .hud-label {
             color: #00e5ff;
             font-size: clamp(0.6em, 2vw, 1.2em);
@@ -544,10 +498,6 @@
                     <div class="shield-icon"></div>
                     <div class="shield-icon"></div>
                 </div>
-                <div class="badge-display">
-                    <div id="badge-icon" style="font-size: 1.5em; filter: drop-shadow(0 0 5px #39ff14);">🛡️</div>
-                    <div class="badge-name">RANK: <span id="badge-rank" class="badge-rank">SCRAP METAL</span></div>
-                </div>
             </div>
             <div class="hud-panel" style="text-align: right;">
                 <div class="hud-label">DISTANCE TRAVERSED</div>
@@ -556,17 +506,11 @@
             </div>
         </div>
 
-        <div id="congrats-popup" class="congrats-popup">
-            <div style="color: #39ff14; font-size: 1.2em; font-weight: bold; margin-bottom: 10px;">PROMOTION DETECTED!</div>
-            <div id="new-badge-name" style="color: #fff; font-size: 2em; font-weight: bold; text-shadow: 0 0 20px #39ff14;">CIRCUIT JOCKEY</div>
-            <div style="color: #00e5ff; margin-top: 10px;">CYBER BADGE UNLOCKED</div>
-        </div>
-
         <div id="auto-status" class="auto-status">AUTOPILOT ENGAGED</div>
 
         <div id="controls-panel">
-            <div id="btn-up" class="control-btn">▲</div>
-            <div id="btn-down" class="control-btn">▼</div>
+            <div id="btn-up" class="control-btn">G��</div>
+            <div id="btn-down" class="control-btn">G�+</div>
             <div class="toggle-container">
                 <div class="toggle-label">Auto-Nav</div>
                 <div id="autoplay-toggle" onclick="toggleAutoplay()"></div>
@@ -700,16 +644,6 @@
         let gameState = 'START';
         let gridOffset = 0;
         let isAutoplay = false;
-
-        const badges = [
-            { name: 'SCRAP METAL', score: 0, icon: '🛡️' },
-            { name: 'CIRCUIT JOCKEY', score: 100, icon: '⚡' },
-            { name: 'DATA DRIFTER', score: 500, icon: '🛸' },
-            { name: 'SYSTEM INTRUDER', score: 1000, icon: '👾' },
-            { name: 'NEON VANGUARD', score: 2500, icon: '⚔️' },
-            { name: 'CYBER OVERLORD', score: 5000, icon: '👑' }
-        ];
-        let currentBadgeIndex = 0;
 
         let config = {
             level: 2,
@@ -1212,48 +1146,15 @@
         }
 
         function updateHUD() {
-            document.getElementById('score-val').innerText = Math.floor(score).toString().padStart(5, '0');
+            document.getElementById('score-val').innerText = Math.floor(score);
             document.getElementById('best-val').innerText = Math.floor(bestScore);
             document.getElementById('dist-val').innerText = distance.toFixed(1) + 'm';
             document.getElementById('energy-bar').style.width = ufo.energy + '%';
-
-            const badge = badges[currentBadgeIndex];
-            document.getElementById('badge-rank').innerText = badge.name;
-            document.getElementById('badge-icon').innerText = badge.icon;
 
             if (ufo.isDead) {
                 document.querySelectorAll('.shield-icon').forEach(el => el.classList.add('broken'));
             } else {
                 document.querySelectorAll('.shield-icon').forEach(el => el.classList.remove('broken'));
-            }
-            
-            checkBadgeUnlock();
-        }
-
-        function checkBadgeUnlock() {
-            let nextIndex = -1;
-            for (let i = badges.length - 1; i >= 0; i--) {
-                if (score >= badges[i].score) {
-                    nextIndex = i;
-                    break;
-                }
-            }
-
-            if (nextIndex > currentBadgeIndex) {
-                currentBadgeIndex = nextIndex;
-                const badge = badges[currentBadgeIndex];
-                
-                const popup = document.getElementById('congrats-popup');
-                document.getElementById('new-badge-name').innerText = badge.name;
-                popup.style.display = 'block';
-                
-                const flash = document.getElementById('flash');
-                flash.style.opacity = 0.3;
-                setTimeout(() => flash.style.opacity = 0, 100);
-
-                setTimeout(() => {
-                    popup.style.display = 'none';
-                }, 3000);
             }
         }
 
@@ -1290,6 +1191,11 @@
                     bestScore = finalScoreVal;
                     localStorage.setItem('ag_best', bestScore);
                 }
+                if (finalScoreVal >= 100) {
+                    let badges = JSON.parse(localStorage.getItem('ag_badges') || '{}');
+                    badges['Circuit Jockey'] = (badges['Circuit Jockey'] || 0) + 1;
+                    localStorage.setItem('ag_badges', JSON.stringify(badges));
+                }
 
                 document.getElementById('high-score-total').innerText = bestScore;
                 localStorage.setItem('ag_last', finalScoreVal);
@@ -1303,7 +1209,7 @@
         function startGlitchText() {
             const title = document.getElementById('go-title');
             const orig = "ROBOT DAMAGED";
-            const chars = "!<>-_\\/[]{}—=+*^?#_";
+            const chars = "!<>-_\\/[]{}G��=+*^?#_";
             let iterations = 0;
 
             clearInterval(glitchInterval);
@@ -1498,7 +1404,6 @@
             combo = 0;
             frames = 0;
             gameSpeed = baseGameSpeed;
-            currentBadgeIndex = 0;
 
             obstacles = [];
             tokens = [];
